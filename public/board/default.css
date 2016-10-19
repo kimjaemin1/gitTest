@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+.page_wrap {text-align: center;}
+.page_wrap .pagination {width:85%; margin: 10px auto;}
+.page_wrap .pagination li {display:inline-block; padding: 6px 4px;}
+.page_wrap .pagination li .active{ color: #a5f241;font-weight: 500;}
+
+.btn_wrap {text-align: right; margin: 15px;}
+.search_wrap {margin:15px 0;}

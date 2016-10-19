@@ -1,0 +1,43 @@
+<script type="text/javascript">
+<!--
+	 ad_check_mobile = '';
+	var adStrUserAgent = window.navigator.userAgent;
+
+	if(adStrUserAgent!= null){
+
+		 if(
+			  adStrUserAgent.indexOf("Android") != -1 ||    //Android
+			  adStrUserAgent.indexOf("SAMSUNG") != -1 ||     //samsung
+			  adStrUserAgent.indexOf("PSP") != -1 ||         //psp
+			  adStrUserAgent.indexOf("PLAYSTATION") != -1 || //playstation
+			  adStrUserAgent.indexOf("lgtelecom") != -1 ||   //LGT
+			  adStrUserAgent.indexOf("Smartphone") != -1 ||  //스마트폰
+			  adStrUserAgent.indexOf("Symbian") != -1 ||     //심비안폰
+			  adStrUserAgent.indexOf("PPC") != -1 ||         //??
+			  adStrUserAgent.indexOf("Windows CE") != -1 ||  //PDA
+			  adStrUserAgent.indexOf("iPhone") != -1 ||      //애플폰
+			  adStrUserAgent.indexOf("iPod") != -1 ) 
+		 {
+
+			ad_check_mobile = 1;
+
+		 }
+		 else {
+			ad_check_mobile = 0;
+		 }
+
+	}
+        
+        if(ad_check_mobile == 1){
+            // 모바일 접근시 
+            location.href = "/kor/";
+        }
+        else{
+            location.href = "/kor/";
+        }
+
+
+
+
+//-->
+</script>

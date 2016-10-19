@@ -1,0 +1,29 @@
+.schedule-wrap {width: 100%; float: left; margin-bottom: 30px; }
+.schedule-wrap li {list-style: none;}
+.schedule-head {width: 305px; margin: 0 auto; padding: 10px 0;}
+.schedule-head span{font-size: 20px; font-weight: bold; padding:15px; }
+.schedule-contents {margin-left: -30px;}
+ 
+.schedule-contents .week li{float: left; width: 14%; text-align: center; padding:10px; background-color: #eee; border-bottom: 1px solid black; border-right: 1px solid black; border-top: 1px solid black; font-size: 15px; font-weight: bold;}
+.schedule-contents .week li.b-left {border-left: 1px solid black;}
+.schedule-contents .week li.sun {color: red;}
+.schedule-contents .week li.sat {color: blue;}
+
+ 
+.schedule-contents .days .b-left {border-left: 1px solid black;}
+.schedule-contents .days .sun {color: red;}
+.schedule-contents .days .sat {color: blue;}
+.schedule-contents .days .schedule-day {float: left; width: 14%; min-height: 100px; border-bottom: 1px solid black; border-right: 1px solid black;}
+.schedule-contents .days .schedule-day .date-wrap{padding: 10px;}
+.schedule-contents .days .schedule-day .date-wrap:after {content:""; display:block; clear:both;}
+.schedule-contents .days .schedule-day .date-wrap span{font-size: 14px; font-weight: bold;}
+.schedule-contents .days .schedule-day .date-wrap button{float: right;}    
+
+    
+ @media all and (max-width: 760px){
+        
+         .date-wrap .btn {font-size: 10px; padding: 1px;}
+         .date-wrap span {display: block; width: 10px;}
+         .schedule-contents .days .schedule-day { min-height: 70px; }
+    
+    }

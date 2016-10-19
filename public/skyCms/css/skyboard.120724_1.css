@@ -1,0 +1,65 @@
+@charset "utf-8"; 
+
+html,body{height:100%;overflow:auto;overflow:hidden;_overflow:visible}
+html{overflow:visible;overflow:auto;_overflow:auto}
+
+
+#wrap{height:100%;width:100%;position:relative;overflow:visible;min-width:980px}
+
+/**/
+
+#container{background:url(../images/left_bg.gif) repeat-y;zoom:1;position:relative;min-height:100%;overflow:visible;margin:-35px 0 -29px 0;zoom:1;border-top:solid 1px #000000;}
+
+
+
+#container:after{clear:both;display:block;height:0;content:'';visibility:hidden}
+div#container .nav_cmn,#nav_snb,#section_cen{padding-top:35px;padding-bottom:29px}
+
+#nav_snb{z-index:20;width:200px;line-height:normal;border:0!important;overflow:visible;float:left;position:relative;zoom:1;}
+div.svc_menu_area{position:absolute;top:75px;bottom:61px;left:0;right:0;border-left:0!important;_position:relative;_top:0;_bottom:auto;border-bottom:solid 1px #2d3538;} /*  ?덊봽???ㅽ겕濡??곸뿭 */
+
+#section_cen{float:left;position:relative;width:100%;margin:0 0 0 -210px;zoom:1;}
+#section_cen_fix{margin:0 0 0 210px;height:100%;width:auto;overflow-y:visible;zoom:1;}
+
+#section_cen_fix_cl{margin:0 0 0 0px;height:100%;width:auto;overflow-y:visible;zoom:1;}
+
+
+.sub_title_zone{height:44px;position:relative;background:#fbfcfc url(../images/icon/main_tiltle.gif) no-repeat 13px 15px;border-bottom:solid 1px #c8cdd2;}/* 硫붿씤 ??댄? ?곸뿭  */
+
+#content{background:#fff;width:100%;zoom:1;_overflow:hidden;background:url(../images/contitle_bg.gif) repeat-x;}
+#cont_fix_area{position:relative;zoom:1;z-index:20;overflow:hidden}
+#cont_flex_area{position:static;width:100%;zoom:1}
+#cont_aid_area{z-index:30;position:relative}
+html{_overflow-y:scroll;_overflow-x:auto}
+
+
+#container .nav_cmn{position:relative}
+
+div#header{position:relative;min-width:1200px;}
+
+#header .login_area,#header #gnb.login_area{right:80px}
+
+
+#footer{z-index:100;position:relative;width:100%;height:28px;border-top:1px solid #000000;background:#272d2f}
+#footer address{position:absolute;width:100%;top:0;display:block;padding-top:7px;font-family:verdana;font-size:9px;color:#838386;text-align:center}
+#footer address a{font-family:tahoma;font-size:9px;font-weight:bold;color:#afafaf}
+#footer address a:hover{color:#009bc8}
+#footer .ico_new{display:inline-block;width:8px;height:10px;margin-left:3px;background:url(http://static.naver.net/pwe/nm/ico_mail1_120531.png) no-repeat 0 -91px}
+#footer .ico_new em{position:absolute;left:-9999px;z-index:-1}
+#footer .quick_link{position:absolute;right:0;padding-right:30px;top:7px;font-size:11px;color:#999;line-height:14px;white-space:nowrap}
+#footer .quick_link a{font-size:11px;letter-spacing:-1px;color:#999}
+#footer .quick_link a:hover{text-decoration:none;color:#acacaf}
+#footer .quick_link .bar{margin:0 2px;color:#53545e}
+#footer .quick_tools{overflow:hidden;position:absolute;left:13px;top:6px;font-size:11px;color:#999;line-height:14px;white-space:nowrap}
+#footer .quick_tools .bar{margin:0 5px 0 2px;color:#53545e}
+#footer .quick_tools a{display:inline-block;font-size:11px;letter-spacing:-1px;color:#999;background:url(http://static.naver.net/pwe/nm/ico_mail1_120531.png) no-repeat 10000px 0}
+#footer .quick_tools .new{vertical-align:middle;background:url(http://static.naver.net/pwe/nm/btn_jmail_120628.png) -165px -11px no-repeat #272d2f}
+#footer .quick_tools a:hover{text-decoration:none;color:#acacaf}
+
+#footer .quick_tools a.setup{padding-left:13px;background-position:0 1px}
+#footer .quick_tools a.sms{padding-left:11px;background-position:0 -30px}
+#footer .quick_tools a.calendar{padding-left:11px;background-position:0 -61px}
+#footer .quick_tools li{float:left;}
+
+#footer .quick_link .lite_mail{color:#49da37}
+.section_typemail{position:absolute;bottom:0;left:6px;;right:1px;_position:static;width:100%;border-top:solid 1px #495457;height:60px;}

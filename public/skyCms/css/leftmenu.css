@@ -1,0 +1,70 @@
+.left_title{position:absolute;left:6px;width:100%;height:44px; background:#3d474a url(../images/lefttitle_bg.gif) no-repeat 10px 5px;border-bottom:solid 1px #2d3538;overflow:hidden}
+.left_title div.title_txt{ position:absolute;width:95%;text-align:center;font-size:15px;font-weight:bold;color:#ffffff;top:12px;}
+.leftmenu{position: absolute;left:0px;overflow:hidden;width:100%;}
+/* leftmenu  up and down   */
+#opbt{position:absolute;top:45px;left:6px;border-top:solid 1px #495457;border-bottom:solid 3px #2d3538;width:100%;height:28px;}
+#opbt li{position:absolute;width:66px;height:20px;cursor:pointer;margin-right:15px;font-family:dotum;font-size:11px;color:#cedde2;padding:5px 0 0 17px;}
+#opbt li.menuop{background:url(../images/bt/left_open_bg.gif) no-repeat;top:4px;right:0px;}
+#opbt li.menucl{background:url(../images/bt/left_close_bg.gif) no-repeat;top:4px;left:20px;}
+
+/*  leftmenu  close and open   */
+#content .left_op{position:absolute;left:0px;top:0px;z-index:200;height:44px;cursor:pointer;width:13px;}
+#content .left_op a{width:100%;height:100%;display:block;overflow:hidden;background:url(../images/bt/leftopcl.png) no-repeat -24px 0px ;}
+#content .left_op a:hover{width:13px;height:44px;display:block;overflow:hidden;background:url(../images/bt/leftopcl_over.png) no-repeat -24px 0px;}
+#nav_snb .left_cl{position:absolute;right:0px;top:0px;display:block;z-index:200;height:44px;cursor:pointer;width:13px;display:inline;}
+#nav_snb .left_cl a{width:100%;height:100%;display:block;overflow:hidden;background:url(../images/bt/leftopcl.png) no-repeat 0px 0px;}
+#nav_snb .left_cl a:hover{width:100%;height:100%;display:block;overflow:hidden;background:url(../images/bt/leftopcl_over.png) no-repeat 0px 0px;}
+.hidden{display:block;position:absolute;top:-3000px;}
+
+
+ul#menu li a{color:#ffffff;}
+ul#menu li{width:100%;position:relative;overflow:hidden;}
+ul#menu{position:relative;left:6px;width:100%;position:relative;z-index:30;cursor:default;overflow:hidden;}
+ul#menu, ul#menu ul {width:100%; list-style-type:none;margin: 0; padding: 0;}
+
+ul#menu a {overflow:hidden;
+  
+
+  display: block;
+  text-decoration: none;
+}
+
+ul#menu li div.depthtxt{position:relative;background:#3d474a;height:30px;border-top:solid 1px #495457;border-bottom:solid 1px #2d3538;overflow:hidden;color:#ffffff; cursor:pointer;width:100%;}
+ul#menu li div.current{position:relative;background:#317d96;height:30px;border-top:solid 1px #495457;border-bottom:solid 1px #2d3538;overflow:hidden;color:#ffffff; cursor:pointer;width:100%;}
+ul#menu li div.depthtxt{position:relative;background:#3d474a;height:30px;border-top:solid 1px #495457;border-bottom:solid 1px #2d3538;overflow:hidden;color:#ffffff; cursor:pointer;width:100%;}
+ul#menu li div.current{position:relative;background:#317d96;height:30px;border-top:solid 1px #495457;border-bottom:solid 1px #2d3538;overflow:hidden;color:#ffffff; cursor:pointer;width:100%;}
+
+ul#menu li div.depthtxt span{color:#FFF;}
+ul#menu li div.plus{position:absolute;top:8px;right:20px;background: url(../images/icon/left_plus.png) no-repeat;display:block;width:20px;height:20px;}
+ul#menu li div.minus{position:absolute;top:8px;right:20px;background: url(../images/icon/left_minus.png) no-repeat;display:block;width:20px;height:20px;}
+ul#menu li div.depthtxt:hover{background:#317d96;border-top:solid 1px #317d96;overflow:hidden;}
+ul#menu li div.depthtxt span{display:block;padding:9px 0 0 15px;width:100%}
+
+ul#menu li div.depthtxt ul a {background:#3d474a;height:30px;border-top:solid 1px #495457;border-bottom:solid 1px #2d3538;overflow:hidden;padding:5px 0px 0px 10px;}
+ul#menu li div.depthtxt ul a span{position:absolute;left:5px;top:5px;width:30px;height:30px;}
+
+ul#menu li a span.collapsed{background:url(../images/icon/left_plus.png) no-repeat;}
+ul#menu li a span.expanded{background:url(../images/icon/left_minus.png) no-repeat;}
+
+/* ul#menu li a:hover {background:#317d96 url(/manager/images/icon/left_plus.png) no-repeat;overflow:hidden;} */
+
+
+
+ul#menu li ul li {overflow:hidden;}
+ul#menu li ul li a {overflow:hidden;background: #4d5c61 url(../images/icon/left_depth2.png) no-repeat 20px 3px;color: #ced4d6;height:16px;border-top:solid 1px #505d61;border-bottom:solid 1px #3d474a;padding-top:5px;padding-left:30px;}
+
+
+ul#menu li ul li a:hover,ul#menu li ul li.current a{overflow:hidden; background:#317d96 url(/manager/images/icon/left_depth2.png) no-repeat 20px 3px;border-top:solid 1px #317d96}
+
+.code {list-style-type: decimal-leading-zero; margin: 0;}
+.code code { display: block; margin-bottom: 0; }
+.code li { background: #ddd; }
+.indent1 { padding-left: 1em; }
+.indent2 { padding-left: 2em; }
+
+.left_blink ul li a{display:block;color:#9ea5a7;padding:22px 5px 0 5px;letter-spacing:-0.03em;height:40px;height:15px;font-size:11px;font-family:dotum}
+.left_blink{font-size:11px;color:#9ea5a7;margin:10px 0px 0px 10px;}
+.left_blink ul li{float:left;height:15px;letter-spacing:-0.03em;height:40px;font-size:11px;}
+.left_blink li.left_pop{background:url(../images/icon/iconset1.png) no-repeat -4px -10px}
+.left_blink li.left_mem{background:url(../images/icon/iconset1.png) no-repeat -65px -10px}
+.left_blink li.left_boa{background:url(../images/icon/iconset1.png) no-repeat -130px -10px}
